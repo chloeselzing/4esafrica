@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body {
+  /* background-color: #0accff; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+
+}
+.banner {
+  background-image: url("../../public/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-attachment: fixed;
+}
+.wwd {
+  background-image: url("../../public/wwd.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.9);
+  background-attachment: fixed;
+  
+}
+
+.mini{
+  background-color: rgba(0, 0, 0, 0.9);
+
+}
+.box-image {
+  background-image: url("../../public/codeLibrary.jpeg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.data-image {
+  background-image: url("../../public/datascience.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, .7);
+}
+.product-image {
+  background-image: url("../../public/laptop.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0,.9);
+}
